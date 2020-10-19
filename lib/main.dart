@@ -243,6 +243,20 @@ class _AnasayfaState extends State<Anasayfa> {
                             Icon(Icons.comment,color: Colors.brown.withOpacity(0.2), size: 30,),
                             SizedBox(width: 10),
                             Text("325",style: TextStyle(fontFamily: 'Montserrat', fontSize: 16),),
+                            
+                            Container(
+                              width: MediaQuery.of(context).size.width-235,
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.end,
+                                children: [
+                                  Icon(Icons.favorite,color: Colors.red, size: 30,),
+                                  SizedBox(width: 5),
+                                  Text("2.3k",style: TextStyle(fontFamily: 'Montserrat', fontSize: 16),),
+                                  SizedBox(width: 25),
+                                ],
+                              ),
+                            ),
+                            
                           ],
                         ),
                   ],
