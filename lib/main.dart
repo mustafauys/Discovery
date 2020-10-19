@@ -83,9 +83,9 @@ class _AnasayfaState extends State<Anasayfa> {
             child: Material(
               borderRadius: BorderRadius.circular(16),
               elevation: 4,
-              color: Colors.blue.shade300,
+              //color: Colors.blue.shade300,
               child: Container(
-                height: 450,
+                height: 500,
                 width: double.infinity,
                 padding: EdgeInsets.all(16),
                 child: Column(
@@ -136,6 +136,115 @@ class _AnasayfaState extends State<Anasayfa> {
                         ),
                       ],
                     ),
+                    SizedBox(height: 15),
+                    Text(
+                      "This Offical website features a ribbed knit zipper jacket that is"
+                      "modern and stylish. It looks very temparament and is recommend to friends",
+                      style: TextStyle(
+                          fontSize: 13,
+                          fontFamily: 'Montserrat',
+                          color: Colors.grey),
+                    ),
+                    SizedBox(height: 15),
+                    Row(
+                      children: [
+                        Container(
+                          height: 200,
+                          width: (MediaQuery.of(context).size.width - 50) / 2,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(5),
+                            image: DecorationImage(
+                                image: AssetImage('assets/modelgrid1.jpeg'),
+                                fit: BoxFit.cover),
+                          ),
+                        ),
+                        SizedBox(width: 10),
+                        Column(
+                          children: [
+                            Container(
+                              height: 95,
+                              width:
+                                  (MediaQuery.of(context).size.width - 100) / 2,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(5),
+                                image: DecorationImage(
+                                    image: AssetImage('assets/modelgrid2.jpeg'),
+                                    fit: BoxFit.cover),
+                              ),
+                            ),
+                            SizedBox(height: 10),
+                            Container(
+                              height: 95,
+                              width:
+                                  (MediaQuery.of(context).size.width - 100) / 2,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(5),
+                                image: DecorationImage(
+                                    image: AssetImage('assets/modelgrid3.jpeg'),
+                                    fit: BoxFit.cover),
+                              ),
+                            ),
+                          ],
+                        ),
+                        
+                      ],
+                    ),
+                    SizedBox(height: 10),
+                        Row(
+                          children: [
+                            Container(
+                              height: 25,
+                              width: 100,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(5),
+                                color: Colors.brown.withOpacity(0.2),
+                              ),
+                              child: Center(
+                                child: Text(
+                                  "# Louis vuitton",
+                                  style: TextStyle(
+                                    fontFamily: 'Montserrat',
+                                    fontSize: 10,
+                                    color: Colors.brown,
+                                  ),
+                                ),
+                              ),
+                            ),
+                            SizedBox(width: 10),
+                            Container(
+                              height: 25,
+                              width: 75,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(5),
+                                color: Colors.brown.withOpacity(0.2),
+                              ),
+                              child: Center(
+                                child: Text(
+                                  "# Chloe",
+                                  style: TextStyle(
+                                    fontFamily: 'Montserrat',
+                                    fontSize: 10,
+                                    color: Colors.brown,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                        SizedBox(height: 20),
+                        Divider(),
+                        SizedBox(height: 20),
+                        Row(
+                          children: [
+                            Icon(Icons.reply,color: Colors.brown.withOpacity(0.2), size: 30,),
+                            SizedBox(width: 10),
+                            Text("1.7k",style: TextStyle(fontFamily: 'Montserrat', fontSize: 16),),
+                            SizedBox(width: 25),
+                            Icon(Icons.comment,color: Colors.brown.withOpacity(0.2), size: 30,),
+                            SizedBox(width: 10),
+                            Text("325",style: TextStyle(fontFamily: 'Montserrat', fontSize: 16),),
+                          ],
+                        ),
                   ],
                 ),
               ),
