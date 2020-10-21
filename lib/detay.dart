@@ -91,17 +91,21 @@ class _DetayState extends State<Detay> {
                       ],
                     ),
                     Divider(),
-
                     Padding(
-                      padding: const EdgeInsets.only(left: 15, top: 10, bottom: 2),
+                      padding:
+                          const EdgeInsets.only(left: 15, top: 10, bottom: 2),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Text('\$6500', style: TextStyle(fontFamily: 'Montserrat', fontSize: 22),),
+                          Text(
+                            '\$6500',
+                            style: TextStyle(
+                                fontFamily: 'Montserrat', fontSize: 22),
+                          ),
                           Container(
                             margin: EdgeInsets.only(right: 30),
                             child: FloatingActionButton(
-                              onPressed: (){},
+                              onPressed: () {},
                               child: Icon(Icons.arrow_forward_ios),
                               backgroundColor: Colors.brown,
                             ),
@@ -111,6 +115,34 @@ class _DetayState extends State<Detay> {
                     ),
                   ],
                 ),
+              ),
+            ),
+          ),
+          Positioned(
+            top: MediaQuery.of(context).size.height / 2,
+            left: 50,
+            child: Container(
+              height: 40,
+              width: 130,
+              decoration: BoxDecoration(
+                color: Colors.black.withOpacity(0.4),
+                borderRadius: BorderRadius.circular(8),
+              ),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Center(
+                    child: Text(
+                      "LAMINATED",
+                      style: TextStyle(
+                        fontFamily: 'Montserrat',
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                  Icon(Icons.arrow_forward_ios, color: Colors.white,size: 18),
+                ],
               ),
             ),
           ),
