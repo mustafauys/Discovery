@@ -79,7 +79,7 @@ class _AnasayfaState extends State<Anasayfa>
         backgroundColor: Colors.transparent,
         elevation: 0,
         title: Text(
-          "Fashion Application",
+          "Discovery",
           style: TextStyle(
               fontFamily: 'Montserrat',
               fontSize: 22,
