@@ -1,4 +1,7 @@
+import 'package:flutter/material.dart';
 
+class Detay extends StatefulWidget {
+  var imgPath;
 
   Detay({this.imgPath});
 
