@@ -1,6 +1,6 @@
-# fashion
+# Discovery
 
-A new Flutter project.
+Moda Uygulaması
 
 ## Getting Started
 
