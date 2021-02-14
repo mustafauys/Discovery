@@ -1,3 +1,1 @@
-# Discovery
-
-Moda Uygulaması
+# Discovery Application
