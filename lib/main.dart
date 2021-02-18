@@ -47,14 +47,14 @@ class _AnasayfaState extends State<Anasayfa>
             Tab(
               icon: Icon(
                 Icons.more,
-                color: Colors.grey,
+                color: Colors.green,
                 size: 22,
               ),
             ),
             Tab(
               icon: Icon(
                 Icons.play_arrow,
-                color: Colors.grey,
+                color: Colors.red,
                 size: 22,
               ),
             ),
@@ -68,7 +68,7 @@ class _AnasayfaState extends State<Anasayfa>
             Tab(
               icon: Icon(
                 Icons.supervised_user_circle,
-                color: Colors.grey,
+                color: Colors.blue,
                 size: 22,
               ),
             )
