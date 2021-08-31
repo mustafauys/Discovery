@@ -30,4 +30,4 @@ lib/generated_plugin_registrant.dart
 app.*.symbols
 
 
-app.*.map.json
+app.*.map.jsonasd
