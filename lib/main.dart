@@ -5,7 +5,13 @@ import 'detay.dart';
 void main() => runApp(ModaApp());
 
 class ModaApp extends StatelessWidget {
- 
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Anasayfa(),
+    );
+  }
 }
 
 class Anasayfa extends StatefulWidget {
