@@ -1,1 +1,5 @@
+version:
+  revision: 81a45ec2e5f80fa71d5135f1702ce540558b416d
+  channel: beta
+
 project_type: app
